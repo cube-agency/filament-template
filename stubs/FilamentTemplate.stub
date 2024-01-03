@@ -1,0 +1,15 @@
+<?php
+
+namespace {{ namespace }};
+
+use CubeAgency\FilamentTemplate\FilamentTemplate;
+
+class {{ class }} extends FilamentTemplate
+{
+    public function schema(): array
+    {
+        return [
+            //
+        ];
+    }
+}

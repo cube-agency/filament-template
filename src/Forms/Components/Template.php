@@ -22,7 +22,7 @@ class Template extends Field implements CanEntangleWithSingularRelationships
 
     public function template(FilamentTemplate $template): self
     {
-        $this->schema($template->schema());
+        $this->schema($template->schema())->visible(count($template->schema()));
 
         return $this;
     }

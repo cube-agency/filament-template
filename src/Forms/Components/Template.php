@@ -7,7 +7,7 @@ use Filament\Forms\Components\Field;
 
 class Template extends Field
 {
-    protected string $view = 'filament-forms::components.fieldset';
+    protected string $view = 'filament-template::components.fieldset';
 
     protected function setUp(): void
     {

@@ -3,15 +3,11 @@
 namespace CubeAgency\FilamentTemplate\Forms\Components;
 
 use CubeAgency\FilamentTemplate\FilamentTemplate;
-use Filament\Forms\Components\Concerns\EntanglesStateWithSingularRelationship;
-use Filament\Forms\Components\Contracts\CanEntangleWithSingularRelationships;
 use Filament\Forms\Components\Field;
 
-class Template extends Field implements CanEntangleWithSingularRelationships
+class Template extends Field
 {
-    use EntanglesStateWithSingularRelationship;
-
-    protected string $view = 'filament-forms::components.fieldset';
+    protected string $view = 'filament-template::components.fieldset';
 
     protected function setUp(): void
     {

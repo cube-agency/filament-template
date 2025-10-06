@@ -7,6 +7,13 @@
 
 Template field for Filament, that gives an option to have different fields based on field value or type in one Resource.
 
+## Compatibility
+
+| Package Version | Filament Version |
+|-----------------|------------------|
+| 1.x             | 3.x              |
+| 2.x             | 4.x              |
+
 ## Installation
 
 You can install the package via composer:

@@ -1,3 +1,3 @@
 <x-filament::fieldset>
-    {{ $getChildComponentContainer() }}
+    {{ $getChildSchema() }}
 </x-filament::fieldset>

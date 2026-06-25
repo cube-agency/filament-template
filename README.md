@@ -13,6 +13,7 @@ Template field for Filament, that gives an option to have different fields based
 |-----------------|------------------|
 | 1.x             | 3.x              |
 | 2.x             | 4.x              |
+| 3.x             | 5.x              |
 
 ## Installation
 
@@ -65,10 +66,10 @@ class CreatePage extends CreateRecord
 and adding this in your Resource
 
 ```php
-public static function form(Form $form): Form
+public static function form(Schema $schema): Schema
 {
-    return $form
-        ->schema([
+    return $schema
+        ->components([
             // ...
             Hidden::make('template')
                 ->default($this->getTemplate()),
